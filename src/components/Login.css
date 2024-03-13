@@ -1,0 +1,108 @@
+/* Login.css */
+
+.h-screen {
+    height: 100vh;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-start {
+    justify-content: flex-start;
+  }
+  
+  .bg-gray-100 {
+    background-color: #f8f9fa; /* Use your desired background color */
+  }
+  
+  .bg-white {
+    background-color: #ffffff; /* Use your desired background color */
+  }
+
+  
+  .p-8 {
+    padding: 1rem;
+    margin-top: 3rem;
+    background-color: white;
+}
+  
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .shadow-md {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .w-80 {
+    width: 20rem;
+    margin-top:6rem ;
+    box-shadow: 10px 5px 5px black;
+  }
+  
+  .text-2xl {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .mb-04{
+    
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .block {
+    display: block;
+    width: 100%;
+  }
+  
+ 
+  .inputField:hover,.inputFiled:hover{
+    background-color: rgb(0 0 0 / 30%);
+    
+
+  }
+  
+  .inputFiled ,.inputField{
+    /* Define your input field styles */
+    border: 2px solid black;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    /* background-color: rgb(0 0 0 / 30%); */
+    border-radius: 1rem;
+  }
+  
+  .signupButton {
+    /* Define your button styles */
+    background-color: #4caf50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  .submitB{
+    background-color: rgb(53, 51, 51);
+  }
+  /* Add more styles as needed */
+  
+  

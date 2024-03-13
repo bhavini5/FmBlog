@@ -1,0 +1,39 @@
+/* Header.css */
+
+.header {
+    background-color: #d1d5db; /* Use your desired background color */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-weight: bold;
+  }
+  
+  .ad {
+    display: flex;
+    flex-direction: md-row;
+    gap: 0.5rem;
+  }
+  
+  .menu-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .items {
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .item-highlighted {
+    background-color: #3b82f6; /* Use your desired highlighted color */
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: #ffffff; /* Use your desired text color */
+  }
+  
+  /* Add more styles as needed */
+  
